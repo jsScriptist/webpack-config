@@ -4,4 +4,12 @@ const obj = {
     thirdKey: 'thirdValue'
 }
 
-console.log(obj);
+const obj2 = {
+    ...obj,
+    fourthKey: 'fourthValue',
+    firstKey: 'firstValue2',
+    fifthKey: 'fifthValue'  
+}
+
+console.log('obj ', obj);
+console.log('obj2 ', obj2);
